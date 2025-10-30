@@ -37,17 +37,18 @@ add-multiply-2025/
 ```bash
 docker build -t add-multiply-2025 .
 ```
-2️⃣ Run the container
+### 2️⃣ Run the container
 ```bash
 docker run -p 8080:5000 add-multiply-2025
 ```
-🚀 Open in Browser
+---
+### 🚀 Open in Browser
 Once running, open your browser and go to:
 👉``` http://localhost:8080```
-
+---
 🖼️ App Preview 
 <img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/2aafac8c-4809-40f7-8b02-9a47aac059c2" />
-
+---
 🧠 Tech Stack
 Backend: Python (Flask)
 
@@ -56,8 +57,9 @@ Frontend: HTML, CSS
 Containerization: Docker
 
 Deployment: Any platform (Render, Railway, etc.)
-
+---
 📜 License
 This project is released under the MIT License — feel free to modify and use it for learning or production.
-
+---
 💬 Crafted with passion by Mahmoud Eid — 2025 Edition
+---
