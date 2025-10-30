@@ -13,6 +13,7 @@ Designed with a 2025-level UI, it combines clean aesthetics, responsive layout, 
 - 💻 Responsive design for desktop & mobile  
 - 🔒 Lightweight, fast, and production-ready  
 ---
+
 🧩 Project Structure
 
 add-multiply-2025/
@@ -22,10 +23,11 @@ add-multiply-2025/
 ├── app.py # Flask web app
 │
 ├── templates/
-│   └── index.html # HTML user interface
+│ └── index.html # HTML user interface
 │
 └── static/
-    └── style.css # Styling and animations
+└── style.css # Styling and animations
+
 ---
 🐳 Run the App Locally with Docker
 
