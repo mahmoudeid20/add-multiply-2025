@@ -1,4 +1,4 @@
-# ⚡ Add & Multiply Calculator — 2025 Edition
+# ⚡ Add & Multiply Calculator
 
 A **futuristic web application** built with **Python (Flask)** and **Docker**, enabling users to input two numbers and instantly see their **Sum** and **Product** in a sleek, animated interface.  
 Designed with a **2025-inspired UI**, the app blends clean aesthetics, smooth animations, and a lightweight backend for a fast and delightful user experience.
