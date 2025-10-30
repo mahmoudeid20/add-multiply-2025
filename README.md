@@ -36,12 +36,14 @@ add-multiply-2025/
 ### 1️⃣ Build the Docker image
 ```bash
 docker build -t add-multiply-2025 .
+```
 2️⃣ Run the container
-bash
+```bash
 docker run -p 8080:5000 add-multiply-2025
+```
 🚀 Open in Browser
 Once running, open your browser and go to:
-👉 http://localhost:8080
+👉``` http://localhost:8080```
 
 🖼️ App Preview
 
