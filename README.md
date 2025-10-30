@@ -5,11 +5,6 @@ Designed with a **2025-inspired UI**, the app blends clean aesthetics, smooth an
 
 ---
 
-## 🖥️ Live Demo
-> 💡 *(Add your deployment link here once hosted — e.g., Render, Railway, or GitHub Pages)*
-
----
-
 ## ✨ Features
 
 - 🧮 **Real-time** addition and multiplication  
