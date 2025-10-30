@@ -45,8 +45,8 @@ docker run -p 8080:5000 add-multiply-2025
 Once running, open your browser and go to:
 👉``` http://localhost:8080```
 
-🖼️ App Preview
-
+🖼️ App Preview 
+<img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/2aafac8c-4809-40f7-8b02-9a47aac059c2" />
 
 🧠 Tech Stack
 Backend: Python (Flask)
