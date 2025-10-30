@@ -21,7 +21,7 @@ Designed with a **2025-inspired UI**, the app blends clean aesthetics, smooth an
 ---
 
 ## 🧩 Project Structure
-ّ````
+```
 add-multiply-2025/
 │
 ├── Dockerfile # Docker build configuration
@@ -34,7 +34,6 @@ add-multiply-2025/
 └── static/
 └── style.css # Styling and animations
 ```
-
 ---
 
 ## 🐳 Run the App Locally with Docker
