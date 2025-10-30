@@ -49,16 +49,15 @@ Once running, open your browser and go to:
 🖼️ App Preview 
 <img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/2aafac8c-4809-40f7-8b02-9a47aac059c2" />
 ---
-🧠 Tech Stack
-Backend: Python (Flask)
+### 🧠 Tech Stack
+    1-Backend: Python (Flask)
 
-Frontend: HTML, CSS
+    2-Frontend: HTML, CSS
 
 Containerization: Docker
-
 Deployment: Any platform (Render, Railway, etc.)
 ---
-📜 License
+### 📜 License
 This project is released under the MIT License — feel free to modify and use it for learning or production.
 ---
 💬 Crafted with passion by Mahmoud Eid — 2025 Edition
