@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add & Multiply Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card fade-in">
+        <h1>Add & Multiply Calculator</h1>
+        <p class="subtitle">Enter two numbers to calculate their sum and product.</p>
+        <form method="POST">
+          <div class="input-group">
+            <label for="a">First Number</label>
+            <input type="text" name="a" id="a" placeholder="Enter number A" value="{{ a_input }}" required />
+          </div>
+          <div class="input-group">
+            <label for="b">Second Number</label>
+            <input type="text" name="b" id="b" placeholder="Enter number B" value="{{ b_input }}" required />
+          </div>
+          <button type="submit" class="btn-primary">Calculate</button>
+        </form>
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div class="alert">
+              {% for msg in messages %}
+                <p>{{ msg }}</p>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endwith %}
+        {% if result %}
+          <div class="result fade-in">
+            <h2>Results</h2>
+            <p><strong>A:</strong> {{ result.a }}</p>
+            <p><strong>B:</strong> {{ result.b }}</p>
+            <p><strong>Sum (A + B):</strong> {{ result.sum }}</p>
+            <p><strong>Product (A × B):</strong> {{ result.product }}</p>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>
