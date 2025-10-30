@@ -28,5 +28,8 @@ def index():
             result = {'a': val_a, 'b': val_b, 'sum': val_a + val_b, 'product': val_a * val_b}
     return render_template('index.html', result=result, a_input=a_input, b_input=b_input)
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+import os
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
